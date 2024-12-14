@@ -1,6 +1,6 @@
 # Networkly
 
-This project was developed for Program Developer students, focusing on tools like Git and GitHub while working remotely. This web application was designed for a fictional platform similar to LinkedIn called 'Networkly', and includes features such as fetching data (APIs) and  local storage data. Below are the details of the project's structure and functionality.
+This web application was designed for a fictional platform similar to LinkedIn called 'Networkly', and includes features such as fetching data random-user API and LocalStorage. Below are more the details about the project.
 
 ## 🔗Project Demo
 You can see the live demo of the project [here](https://fabianmendozaospina.github.io/networkly/).

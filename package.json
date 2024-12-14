@@ -10,7 +10,7 @@
     "Networkly",
     "Social platform"
   ],
-  "author": "Lateef Adeyekun",
+  "author": "Fabian Mendoza",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
