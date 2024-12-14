@@ -3,7 +3,7 @@
 This project was developed for Program Developer students, focusing on tools like Git and GitHub while working remotely. This web application was designed for a fictional platform similar to LinkedIn called 'Networkly', and includes features such as fetching data (APIs) and  local storage data. Below are the details of the project's structure and functionality.
 
 ## 🔗Project Demo
-You can see the live demo of the project [here](https://douglasfssantiago.github.io/networkly/).
+You can see the live demo of the project [here](https://fabianmendozaospina.github.io/networkly/).
 
 ![](./assets/img/readme1.png)
 
@@ -21,7 +21,7 @@ You can see the live demo of the project [here](https://douglasfssantiago.github
 To run this project locally, follow these steps:
 1. Clone the repository:
     ```sh
-    git clone https://github.com/douglasfssantiago/networkly.git
+    git clone https://github.com/fabianmendozaospina/networkly.git
     ```
 2. Navigate to the project directory:
     ```sh
