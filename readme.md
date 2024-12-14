@@ -5,12 +5,11 @@ This project was developed for Program Developer students, focusing on tools lik
 ## 🔗Project Demo
 You can see the live demo of the project [here](https://douglasfssantiago.github.io/networkly/).
 
-![](./assets/img/readme2.png)
+![](./assets/img/readme1.png)
 
 ## 📑Table of Contents
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Folder Structure](#project-structure)
 - [Features](#features)
 
 ## 🖥️Technologies Used
@@ -30,28 +29,7 @@ To run this project locally, follow these steps:
     ```
 3. Open `index.html` in your browser to view the application.
 
-
-## Folder Structure
-├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── img
-│   │   ├── favicon.png
-│   │   ├── login.jpg
-│   │   ├── logo.png
-│   │   ├── search.png
-│   │   ├── por-borrar.jpg
-│   │   ├── por-borrar2.jpg
-│   │   └── profile.jpg
-│   ├── js
-│   │   ├── app.js
-│   │   └── utils.js
-├── index.html
-├── home.html
-└── README.md
-
-
-![](./assets/img/readme.png)
+![](./assets/img/readme2.png)
 
 ## 💡Features
 

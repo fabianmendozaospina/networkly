@@ -48,10 +48,10 @@ function createPost(input, file) {
     postImageProfile.innerHTML = '<img class="post-photo" src="./assets/img/profile.jpg">';
 
     postIdentity.classList.add('post-identity');
-    postIdentity.innerHTML = `<p class="post-name">John Smith</p><p>Software Developer</p>`;
+    postIdentity.innerHTML = `<p class="post-name">John Smith</p><p class="post-second">UI/UX Designer</p>`;
 
     postOptions.classList.add('post-options');
-    postOptions.innerHTML = '<i class="post-ellipsis fa-solid fa-ellipsis"></i><p>1s ago</p>';
+    postOptions.innerHTML = '<i class="post-ellipsis fa-solid fa-ellipsis"></i><p class="post-second">1s ago</p>';
 
     postText.classList.add('post-text');
     postText.classList.add('flex');
@@ -71,7 +71,7 @@ function createPost(input, file) {
         const reader = new FileReader();
         reader.onload = function () {
             postImage.style.backgroundImage = `url('${reader.result}')`;
-            postImage.style.height = '616px'; 
+            postImage.style.height = '500px'; 
         };
         reader.readAsDataURL(file);
     }
@@ -105,6 +105,6 @@ function getPostIdentifier() {
 function uploadImage(file) {
     if (file) {
         postObj.title = file.name;
-        fileStatusObj.innerText = "1 file pending";
+        fileStatusObj.innerText = "1 file to post";
     }
 }
