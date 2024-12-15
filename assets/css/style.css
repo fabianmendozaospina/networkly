@@ -6,9 +6,9 @@
 
 :root {
     --app-white: #fff;
-    --app-blue-1: #00549A;
+    --app-blue-1: #4782fe;/* #00549A;*/
     --app-blue-2: #0483eb;
-    --app-blue-3: #003778;
+    --app-blue-3: #2556b6;
     --app-gray-1: #f9f9f9;
     --app-gray-2: rgb(0 0 0 / 10%);
     --app-gray-3: #808080;  
@@ -227,7 +227,7 @@ p.nav-item {
     }
 
     input:focus {
-        border-color: #0073b1;
+        border-color: var(--app-blue-1);
     }
 
     input::placeholder {
@@ -251,7 +251,7 @@ p.nav-item {
         top: -10px;
         left: 0;
         font-size: 12px;
-        color: #0073b1;
+        color: var(--app-blue-1);
     }
 }
 
