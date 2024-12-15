@@ -6,9 +6,9 @@
 
 :root {
     --app-white: #fff;
-    --app-blue-1: #4782fe;/* #00549A;*/
+    --app-blue-1: #4782fe;
     --app-blue-2: #0483eb;
-    --app-blue-3: #2556b6;
+    --app-blue-3: #3664c7;
     --app-gray-1: #f9f9f9;
     --app-gray-2: rgb(0 0 0 / 10%);
     --app-gray-3: #808080;  
@@ -281,7 +281,7 @@ p.nav-item {
     gap: 30px;
     width: 100%;
     margin-top: 40px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .button-container {
@@ -711,7 +711,7 @@ aside {
 /*--------------------------------------*/
 
 footer {
-    background-color: var(--app-blue-1);
+    background: linear-gradient(to left, var(--app-blue-1), #65caff);
     height: 50px;
     font-size: 16px;
     color: var(--app-gray-1);
