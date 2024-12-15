@@ -8,7 +8,7 @@
     --app-white: #fff;
     --app-blue-1: #4782fe;
     --app-blue-2: #0483eb;
-    --app-blue-3: #3664c7;
+    --app-blue-3: #65caff;
     --app-gray-1: #f9f9f9;
     --app-gray-2: rgb(0 0 0 / 10%);
     --app-gray-3: #808080;  
@@ -102,10 +102,9 @@ header {
 
             li {
                 line-height: 70px;
-                color: var(--app-gray-4);
 
                 a {
-                    color: var(--app-gray-4);
+                    color: var(--app-gray-3);
                 }
 
                 a:hover {
@@ -119,6 +118,10 @@ header {
 p.nav-item {
     i {
         padding-right: 3px;
+    }
+
+    a:hover {
+        color: var(--app-blue-1) !important;
     }
 }
 
@@ -172,6 +175,8 @@ p.nav-item {
     justify-content: center;
     align-items: left;
     margin-right: 40px;
+    color: var(--app-gray-3);
+
     p {
         margin: 10px 0 50px 0;
         font-size: 17px;
@@ -181,8 +186,23 @@ p.nav-item {
     h1 {
         font-size: 35px;
         font-family: "Exo 2", sans-serif;
-        color: var(--app-blue-3);
     }
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+  
+.text-gradient {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, var(--app-blue-1), var(--app-blue-3));
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    /* animation: gradient-animation 5s infinite alternate; */
 }
 
 .brand {
@@ -195,7 +215,7 @@ p.nav-item {
     margin-top: 10px;
     font-size: 20px;
     font-weight: 500;
-    color: var(--app-blue-3);
+    color: var(--app-blue-1);
     position: relative;
    
     input[type='text'] {
@@ -282,6 +302,10 @@ p.nav-item {
     width: 100%;
     margin-top: 40px;
     font-size: 12px;
+
+    a {
+        color: var(--app-blue-1);
+    }
 }
 
 .button-container {
@@ -711,7 +735,7 @@ aside {
 /*--------------------------------------*/
 
 footer {
-    background: linear-gradient(to left, var(--app-blue-1), #65caff);
+    background: linear-gradient(to left, var(--app-blue-1), var(--app-blue-3));
     height: 50px;
     font-size: 16px;
     color: var(--app-gray-1);
