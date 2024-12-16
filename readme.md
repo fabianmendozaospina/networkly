@@ -5,7 +5,7 @@ This web application was designed for a fictional platform similar to LinkedIn, 
 ## 🔗Project Demo
 You can see the live demo of the project [here](https://fabianmendozaospina.github.io/netxos/).
 
-![](./assets/img/readme1.png)
+![](./assets/img/readme-index.png)
 
 ## 📑Table of Contents
 - [Technologies Used](#technologies-used)
@@ -25,11 +25,11 @@ To run this project locally, follow these steps:
     ```
 2. Navigate to the project directory:
     ```sh
-    cd networkly
+    cd netxos
     ```
 3. Open `index.html` in your browser to view the application.
 
-![](./assets/img/readme2.png)
+![](./assets/img/readme-home.png)
 
 4. Enter this credentials:
     - Username: johnsmith
