@@ -29,11 +29,11 @@ To run this project locally, follow these steps:
     ```
 3. Open `index.html` in your browser to view the application.
 
-![](./assets/img/readme-home.png)
-
 4. Enter this credentials:
     - Username: johnsmith
     - Password: 123456
+
+![](./assets/img/readme-home.png)
 
 ## 💡Features
 
