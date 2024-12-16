@@ -1,9 +1,9 @@
-# Networkly
+# NETXOS
 
-This web application was designed for a fictional platform similar to LinkedIn called 'Networkly', and includes features such as fetching data random-user API and LocalStorage. Below are more the details about the project.
+This web application was designed for a fictional platform similar to LinkedIn, and includes features such as fetching data random-user API and LocalStorage. Below are more the details about the project.
 
 ## 🔗Project Demo
-You can see the live demo of the project [here](https://fabianmendozaospina.github.io/networkly/).
+You can see the live demo of the project [here](https://fabianmendozaospina.github.io/netxos/).
 
 ![](./assets/img/readme1.png)
 
@@ -21,7 +21,7 @@ You can see the live demo of the project [here](https://fabianmendozaospina.gith
 To run this project locally, follow these steps:
 1. Clone the repository:
     ```sh
-    git clone https://github.com/fabianmendozaospina/networkly.git
+    git clone https://github.com/fabianmendozaospina/netxos.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -30,6 +30,10 @@ To run this project locally, follow these steps:
 3. Open `index.html` in your browser to view the application.
 
 ![](./assets/img/readme2.png)
+
+4. Enter this credentials:
+    - Username: johnsmith
+    - Password: 123456
 
 ## 💡Features
 

@@ -174,7 +174,6 @@ p.nav-item {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    /* margin-right: 50px; */
     color: var(--app-gray-3);
 
     p {
