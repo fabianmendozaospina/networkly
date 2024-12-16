@@ -195,14 +195,27 @@ p.nav-item {
   }
   
 .text-gradient {
-    font-size: 48px;
+    font-size: 70px !important;
     font-weight: bold;
     background: linear-gradient(to right, var(--app-blue-1), var(--app-blue-3));
     background-size: 200% 200%;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    /* animation: gradient-animation 5s infinite alternate; */
+    animation: gradient-animation 5s infinite alternate;
+    position: relative;
+}
+
+.logo-nexos img {
+    vertical-align: middle;
+    display: inline; 
+    width: 50px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.logo-nexos {
+    display: inline;
 }
 
 .brand {
