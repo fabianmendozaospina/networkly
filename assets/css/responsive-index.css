@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @media (max-width: 1180px) {
+    .form-group,
     .button-container {
         display: flex;
         flex-direction: column; 
@@ -27,21 +28,28 @@
     }
 }
 
-@media (max-width: 338px) {
+@media (max-width: 399px) {
 
     html {
-        min-width: 338px;
+        min-width: 399px;
     }
 
     .right-section {
         display: none;    
     }
 
+    #username,
+    #password,
     .login-btn,
     .create-btn {
         width: 290px;
-        margin-right: 20px;
         max-width: calc(100% - 40px); 
-        margin-right: 20px;              
+    }
+
+    .form-group {
+        input[type='text'],
+        input[type='password'] {
+            background: none;
+        }
     }
 }

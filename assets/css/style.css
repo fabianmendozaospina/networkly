@@ -22,8 +22,7 @@
 }
 
 html {
-    min-width: 338px;
-    overflow-x: hidden;
+    min-width: 399px;
 }
 
 body {
@@ -36,7 +35,10 @@ body {
     font-weight: 400;
     letter-spacing: 0.5px;
     color: var(--app-white);
-    overflow-x: hidden;
+}
+
+html, body {
+    overflow-y: hidden;
 }
 
 main {
