@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@media (max-width: 1180px) {
+    .button-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;   
+        gap: 10px;            
+    }
+
+    .login-btn,
+    .create-btn {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 758px) {
+    .logo img, 
+    .search input { 
+        display: none; 
+    }
+}
+
+@media (max-width: 510px) {
+    nav {
+        display: none; 
+    }
+}
+
+@media (max-width: 338px) {
+
+    html {
+        min-width: 338px;
+    }
+
+    .right-section {
+        display: none;    
+    }
+
+    .login-btn,
+    .create-btn {
+        width: 290px;
+        margin-right: 20px;
+        max-width: calc(100% - 40px); 
+        margin-right: 20px;              
+    }
+}

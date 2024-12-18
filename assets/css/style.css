@@ -21,6 +21,11 @@
     margin-inline: auto;
 }
 
+html {
+    min-width: 338px;
+    overflow-x: hidden;
+}
+
 body {
     height: 100%;
     margin: 0;
@@ -129,7 +134,10 @@ p.nav-item {
     place-items: center;
 
     img {
-        height: 60px;
+        width: auto;
+        height: auto;
+        max-width: 100%; 
+        max-height: 60px;
     }
 }
 
@@ -309,7 +317,7 @@ p.nav-item {
 
 .checkbox-container {
     display: flex;
-    justify-content:left;
+    justify-content: left;
     gap: 30px;
     width: 100%;
     margin-top: 40px;
@@ -318,6 +326,11 @@ p.nav-item {
     a {
         color: var(--app-blue-1);
     }
+}
+
+.forgot {
+    /* justify-content: right !important; */
+    float: right !important;
 }
 
 .button-container {
@@ -773,61 +786,5 @@ footer {
     
     .fa-brands:hover, .fa-envelope:hover {
         transform: scale(1.15);
-    }
-}
-
-/*--------------------------------------*/
-/*          Common Media Query          */
-/*--------------------------------------*/
-
-@media screen and (min-width: 922px) {
-    div .dropdown {
-        display: none;
-    }
-
-    div .menu {
-        display: flex;
-        gap: 20px; 
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 921px) {
-    div .menu { 
-        display: none;
-    }
-
-    div .dropdown { 
-        display: inline-block;
-    }
-
-    nav {
-        margin-right: 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    footer .container {
-        display: flex; 
-        flex-direction: column;
-        align-items: center; 
-        text-align: center; 
-    }
-
-    .socials ul {
-        display: flex;
-        justify-content: center; 
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-
-    .socials ul li {
-        margin: 0 10px;
-    }
-
-    .copyright {
-        display: none; 
-        margin-top: 15px;
     }
 }
