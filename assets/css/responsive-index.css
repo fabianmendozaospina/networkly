@@ -49,14 +49,19 @@
         max-width: calc(100% - 40px); 
     }
 
-    .text-gradient {
-        padding-left: 20px;
+    .brand {
+        margin-right: 20px;
     }
 
-    /* .form-group {
+    .form-group {
         input[type='text'],
         input[type='password'] {
-            background: none;
+            padding: 0 15px 0 35px;
         }
-    } */
+    }
+
+    .floating-label {
+        visibility: hidden;
+        left: 50px;
+    }
 }
