@@ -23,6 +23,12 @@ listen('keydown', window, (event) => {
 function handleLogin() {
     const username = selectById('username').value;
     const password = selectById('password').value;
+    
+    if (username.toString().trim() === '' || password.trim() === '') {
+        errorMessage.textContent = 'Your credentials are required';
+        errorMessage.style.visibility = 'visible';
+        return;
+    }
 
     const storedUsername = localStorage.getItem('username');
     const storedPassword = localStorage.getItem('password');
