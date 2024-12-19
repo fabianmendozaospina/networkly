@@ -165,6 +165,62 @@ p.nav-item {
 }
 
 /*--------------------------------------*/
+/*           Dropdown menu              */
+/*--------------------------------------*/
+
+.dropdown {
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown-btn {
+    background-color: var(--app-white);
+    color: var(--app-gray-3);
+    font-size: 25px;
+    border: none;
+    width: 40px;
+    height: 60px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.dropdown-btn:hover{
+    color: var(--app-blue-1);
+}
+
+.dropdown-btn i {
+    pointer-events: none; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--app-white);
+    min-width: 160px;
+    z-index: 2;
+    border-radius: 5px;
+    left: -120px;
+}
+
+.dropdown-content a {
+    color: var(--app-gray-3);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;   
+}
+
+.dropdown-content a:hover {
+    color: var(--app-blue-1);
+}
+
+.show {
+    display: block;
+}
+
+/*--------------------------------------*/
 /*             Login page               */
 /*--------------------------------------*/
 
@@ -788,5 +844,15 @@ footer {
     
     .fa-brands:hover, .fa-envelope:hover {
         transform: scale(1.15);
+    }
+}
+
+/*--------------------------------------*/
+/*          Common Media Query          */
+/*--------------------------------------*/
+
+@media (max-width: 510px) {
+    div .dropdown { 
+        display: inline-block;
     }
 }
