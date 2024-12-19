@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+
+html, body {
+    overflow-y: hidden;
+}
+
 @media (max-width: 1180px) {
     .logo-container,
     .form-group,

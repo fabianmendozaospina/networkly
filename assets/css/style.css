@@ -37,10 +37,6 @@ body {
     color: var(--app-white);
 }
 
-html, body {
-    overflow-y: hidden;
-}
-
 main {
     flex: 1;
 }
