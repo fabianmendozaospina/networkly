@@ -23,4 +23,17 @@
     .user-profile {
         display: none;
     }
+
+    .panel {
+        width: 75%;
+    }
+
+    .connections {
+        width: 25%;
+    }
+
+    .container {
+        display: flex; 
+        flex-wrap: nowrap;
+    }    
 }
