@@ -4,12 +4,6 @@ import { select, selectById, listen } from "./utils.js";
 
 const loginBtn = select('.login-btn');
 const errorMessage = selectById('error-message');
-const dropdownBtn = select('.dropdown-btn');
-const dropdownContent = select('.dropdown-content');
-
-listen('click', dropdownBtn, () => {
-    dropdownContent.classList.toggle('show');
-});
 
 listen('load', window, () => { 
     if (!isAvailable()) {
