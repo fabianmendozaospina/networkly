@@ -671,8 +671,8 @@ aside {
     color: var(--app-gray-4);
 }
 
-.user-profile {
-    .user-profile-container {
+.user-profile, .connections {
+    .user-profile-container, .connections-container {
         box-shadow: 1px 1px 2px var(--app-gray-2);
         border-radius: 5px;
         background-color: var(--app-white);

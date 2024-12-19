@@ -2,7 +2,6 @@
 
 import { select, listen, create } from "./utils.js";
 
-
 const API_URL = 'https://randomuser.me/api/?nat=CA&results=10&seed=same';
 const usersContainer = select('.users');
 const options = {
